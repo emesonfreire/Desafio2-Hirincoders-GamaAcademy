@@ -1,0 +1,264 @@
+@charset "UTF-8";
+<style>
+
+bory{
+	
+	/*background-color: red;
+	font-size: 9px;
+		width: 900%;
+		height:500px;
+		float: left;
+		text-align: center;
+		margin-left:100px;*/
+		
+}
+.cinza{
+	background-color: rgb(241,241,241);
+	padding-bottom:10%;
+	width:100%;
+	position:absolute;
+}
+div#interface{
+	width: 1101px;
+	height:550px;
+	background-color:rgb(255,255,255); 
+	margin: -60px auto 0px auto;
+	text-align: center;
+	
+}
+.icones img  {
+    width:60%;
+	margin: 5%;
+	padding-top:25%;
+	
+	
+    
+}
+
+.icones ul li {
+	
+    text-transform: none;
+    list-style-type: none;
+    display:inline-block;
+	text-decoration: none;
+	margin-left:20px;
+	margin-right:2%;
+	margin-top:65px;
+	margin-bottom:30px;
+	text-align: center;
+	border-radius: 15px;
+	padding-top: -45px;
+	padding-bottom: 35px;
+	padding-left: 35px;
+	padding-right: 25px;
+	width: 205px;
+	height: 205px;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(10%,rgba(255,255,255,0)), to(rgb(237,237,237)));
+	box-shadow: inset 0 2px 3px 0 rgba(255,255,255,.1), inset 0 2px 3px 0 rgba(0,0,0,.1), 0 3px 2px 0 rgba(1,0,0,.1);
+	
+	
+	transition: background-color 2s;
+	
+}
+.icones a:hover{
+    color: black;
+    text-decoration: underline;text-decoration-color:rgb(240,137,16);top: 10px;
+	position:relative;
+}
+.logo{
+	position: absolute;
+	top:25px;
+	left:-330px;
+	
+}
+.logo-usuario{
+	position: absolute;
+	top:20px;
+	right:150px;
+}
+.nome{
+	position: absolute;
+	top:0px;
+	right:40px;
+}
+h1 {font-size: 12px;
+    font-family: Arial;
+    color: gray;
+    text-align: center;
+	
+
+}
+h2{
+	
+    font-size: 9px;
+    font-family: Arial;
+    color:rgb(89,89,89);
+	align: left-side;
+	
+}
+h3{
+    font-size: 10px;
+    font-family:"Arial", Times, sans-serif;
+    color: black;
+    text-decoration: none;
+	text-align:center;
+	
+
+
+}
+
+	/*p{
+		color:rgb(240,137,16);
+	}*/
+	
+	
+	
+.cabecalho{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 100%;
+	background-color:rgb(255,255,255);
+	padding: 50px 0;
+	float: left;
+}
+.laranja{
+	background-color: rgb(240,137,16);
+	padding:110px 0;
+	background-position:center; 
+	width:100% ;
+}
+/*.contudo{
+	background-color:rgb(255,255,255);
+	padding:5%;
+	width: 100%;
+	margin:0px;*/
+
+---------------------------------------------------------------------------------------	
+}
+nav#menu{
+	width: 25%;
+    text-align: center;
+}
+	
+}
+.cabecalho {
+    width: 100%;
+    text-align: bottom;
+}
+
+.logo{
+	width: 25%;
+    text-align: center;
+	position:absolute;
+}
+.logo img{
+	width:100%
+}
+.logo-usuario img {
+    width: 100%;
+}
+.logo {
+    width: 25%;
+    float: left;
+    
+}
+.logo-usuario {
+    width: 5%;
+    float: right;
+	
+}
+@media only screen and (min-width: 450px)and (max-width: 768px) {
+	/*.logo {
+    width: 50%;
+    float: left;
+    text-align: center;*/
+	.logo img, .logo-usuario img {
+    width: 50%;
+	float: right;
+}
+}
+
+@media only screen and (min-width: 769x) {
+	/*.logo {
+    width: 45%;
+    float: left;
+    text-align: center;*/
+	.logo img, .logo-usuario img {
+    width: 10%;
+	float: left;
+	margin-left:10px;
+	margin-right:10px;
+}
+
+
+
+
+}
+
+-------------------------------------------------------------------------------	
+	
+}
+footer{
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+}
+.rodape{
+	
+	text-align:center;
+	color: rgb(147,147,147);
+	font-size:9px;
+	background-color: rgb(17,17,17);
+	padding-top:15xp 0;
+	padding: 10px 0;
+	position: absolute;
+	bottom:-236px;
+    width: 100%;
+	height: 3%;
+	
+	
+
+}
+
+
+
+
+
+nav#menu{
+    display: block;
+	width:100%;
+	
+	
+}
+nav#menu a{
+    color: gray;
+    text-decoration: none;
+	text-align:left;
+}
+nav#menu ul{
+    list-style: none;
+    text-transform:none;
+    position: absolute;
+    top: 0px;
+	left: 450px;
+	
+}
+nav#menu li{
+    display: inline-block;
+    transition: background-color 2s;
+
+    padding: 10px;
+    margin: 20px;
+	
+
+}
+nav#menu a:hover{
+    color: black;
+    text-decoration: underline;text-decoration-color:rgb(240,137,16);bottom: 10px;
+
+}
+
+
+	
+
